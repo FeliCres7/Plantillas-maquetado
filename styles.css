@@ -34,3 +34,20 @@ header{
     border: none;
 
 }
+.imagesection{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 5vw;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.imagediv{
+    width: 15vw;
+    height: 15vw;
+    background-color: gray;
+    
+}
