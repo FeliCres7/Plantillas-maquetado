@@ -34,16 +34,19 @@ header{
     border: none;
 
 }
+aside{
+    display: flex;
+    flex-direction: row;
+}
 .imagesection{
     display: flex;
     flex-direction: column;
     padding: 5vh 5vw;
-    padding-right: 0;
     width: 20vw;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+    margin: 0;
 
 }
 .imagediv{
@@ -51,4 +54,55 @@ header{
     height: 15vw;
     background-color: gray;
     
+}
+.imagesection *{
+    margin: 1vh 0;
+}
+.bannersection{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: 0;
+}
+.bannersection div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh 5vw;
+}
+.flecha{
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5vw;
+    background-color: #fff;
+}
+.flecha img{
+    height: 15vh;
+}
+.imagesection button{
+    background-color: #424242;
+    border: none;
+    padding: 1vh 3vw;
+    color: #dedede;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+}
+.left-images{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.right-images{
+    display: grid;
+}
+.art-img{
+height: 15vh;
+width: 15vh;
+background-color: #424242;
+margin: 2vh 2vh;
 }
