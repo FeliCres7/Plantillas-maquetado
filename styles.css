@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
 header{
     display: flex;
     height: 50px;
@@ -70,6 +74,12 @@ aside{
     justify-content: center;
     padding: 5vh 5vw;
 }
+.bannerdiv h3{
+    font-size: 5vh;
+}
+.bannerdiv p{
+    font-size: 3vh;
+}
 .flecha{
     display: flex;
     border: none;
@@ -90,7 +100,6 @@ aside{
 article{
     display: flex;
     flex-direction: row;
-    height: 40vh;
 }
 .left-images{
     display: grid;
@@ -101,8 +110,33 @@ article{
     display: grid;
 }
 .art-img{
-height: 15vh;
-width: 15vh;
+height: 40vh;
+width: 40vh;
 background-color: #424242;
 margin: 2vh 2vh;
+}
+.bigimage{
+    margin: 2vh 2vh;
+    height: 84vh;
+    width: 82vh;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    margin: 5vh 20vw;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    align-items: center;
+    text-align: center;
+    margin: 0 2.5vw;
+}
+
+.footerimg{
+    height: 7vh;
+    width: 7vh;
+    background-color: #424242;
+    margin-bottom: 2vh;
 }
